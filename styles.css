@@ -1,0 +1,81 @@
+body {
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    text-align: center;
+    background-color: beige;
+    justify-content: center;
+}
+
+#container {
+    width: 600px;
+    background-color: aliceblue;
+    padding-bottom: 2em;
+}
+
+#gameTitle {
+    background-color: rgb(192, 255, 200)
+}
+
+#gameover {
+    display: none;
+    line-height: 1.8;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#deck {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-bottom: 2em;
+    color: pink;
+}
+
+#top {
+    text-align: left;
+    margin-left: 0.6em;
+}
+
+#bottom {
+    text-align: right;
+    margin-right: 0.6em;
+}
+
+#gameButtons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+#high,
+#low {
+    display: none;
+    padding: 0.5em 2em;
+    background-color: burlywood;
+}
+
+#high {
+    margin-right: 0.25em;
+}
+
+#low {
+    margin-left: 0.25em;
+}
+
+
+#startButton {
+    padding: 0.5em 1.5em;
+    background-color: burlywood;
+    margin-bottom: 1em;
+}
+
+#juno {
+    text-decoration: none;
+}
